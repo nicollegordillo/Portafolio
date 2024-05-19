@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  color: #ff4d6d;
+  text-align: center;
+  padding: 20px;
+  font-family: 'Audiowide', sans-serif;
+  text-shadow: 
+    -1px -1px 0 #a4133c,  
+     1px -1px 0 #a4133c,
+    -1px  1px 0 #a4133c,
+     1px  1px 0 #a4133c;
+  height:20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 5vw;
+  font-style: italic; 
+}
+
+.main {
+  display: flex;
+  flex: 1;
+}
+
+.left, .right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vinylRecord {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #000 20%, #333 80%);
+  border: 5px solid #666;
+  animation: spin 4s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.recordNeedle {
+  width: 10px;
+  height: 100px;
+  background-color: #555;
+  position: relative;
+  top: -100px;
+  left: 75px;
+  transform: rotate(45deg);
+}
+
+.playButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.rectangleButton {
+  padding: 20px 40px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
