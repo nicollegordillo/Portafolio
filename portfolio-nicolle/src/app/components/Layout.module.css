@@ -55,15 +55,35 @@
     transform: rotate(360deg);
   }
 }
-
+.needleCircle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #555;
+  position: relative;
+  top: -170px;
+  left: 107px;
+}
 .recordNeedle {
-  width: 10px;
-  height: 100px;
+  width: 15px;
+  height: 150px;
   background-color: #555;
   position: relative;
   top: -100px;
   left: 75px;
+  transform: rotate(0deg);
+  border-radius: 5px 5px 5px 0;
+}
+
+.recordNeedleTip {
+  width: 15px;
+  height: 50px;
+  background-color: #555;
+  position: relative;
+  top: -15px;
+  left: 44px;
   transform: rotate(45deg);
+  border-radius: 0 5px 5px 5px;
 }
 
 .playButton {

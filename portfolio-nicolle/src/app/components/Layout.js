@@ -23,7 +23,9 @@ const Layout = () => {
       <div className={styles.main}>
         <div className={styles.left}>
           <div className={styles.vinylRecord} style={{ animationPlayState: isPlaying ? 'running' : 'paused' }}></div>
+          <div className={styles.needleCircle}></div>
           <div className={styles.recordNeedle}></div>
+          <div className={styles.recordNeedleTip}></div>
           <button className={styles.playButton} onClick={togglePlay}>
             {isPlaying ? 'Pause' : 'Play'}
           </button>
