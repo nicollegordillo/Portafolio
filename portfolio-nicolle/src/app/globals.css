@@ -143,6 +143,12 @@ header {
    font-style: italic;
    font-size: 5vw;
 }
+.needleCircle {
+  background-color: #041f1e;
+}
+.recordNeedle {
+  background-color: #1e2d2f;
+}
 .slideshow-container {
   max-width: 70%;
   position: relative;

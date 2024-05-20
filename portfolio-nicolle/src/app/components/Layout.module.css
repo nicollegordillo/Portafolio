@@ -39,8 +39,9 @@
 }
 
 .vinylRecord {
-  width: 150px;
-  height: 150px;
+  position: absolute;
+  width: 285px;
+  height: 285px;
   border-radius: 50%;
   background: radial-gradient(circle, #000 20%, #333 80%);
   border: 5px solid #666;
@@ -59,18 +60,18 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: #555;
+  background-color: #041f1e;
   position: relative;
-  top: -170px;
-  left: 107px;
+  top: -110px;
+  left: 207px;
 }
 .recordNeedle {
   width: 15px;
-  height: 150px;
-  background-color: #555;
+  height: 160px;
+  background-color: #1e2d2f;
   position: relative;
-  top: -100px;
-  left: 75px;
+  top: -40px;
+  left: 175px;
   transform: rotate(0deg);
   border-radius: 5px 5px 5px 0;
 }
@@ -78,11 +79,11 @@
 .recordNeedleTip {
   width: 15px;
   height: 50px;
-  background-color: #555;
+  background-color: #1e2d2f;
   position: relative;
-  top: -15px;
-  left: 44px;
-  transform: rotate(45deg);
+  top: 54px;
+  left: 148px;
+  transform: rotate(35deg);
   border-radius: 0 5px 5px 5px;
 }
 
@@ -94,6 +95,8 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  position: absolute;
+  bottom: 20px; 
 }
 
 .rectangleButton {
